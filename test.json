@@ -1,0 +1,30 @@
+{
+  "coord": { "lon": -75.6901, "lat": 45.4209 },
+  "weather": [
+    { "id": 801, "main": "Clouds", "description": "few clouds", "icon": "02d" }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 294.87,
+    "feels_like": 294.01,
+    "temp_min": 294.12,
+    "temp_max": 296.95,
+    "pressure": 1021,
+    "humidity": 35
+  },
+  "visibility": 10000,
+  "wind": { "speed": 5.14, "deg": 40, "gust": 11.32 },
+  "clouds": { "all": 20 },
+  "dt": 1685378274,
+  "sys": {
+    "type": 2,
+    "id": 2005245,
+    "country": "CA",
+    "sunrise": 1685351997,
+    "sunset": 1685407241
+  },
+  "timezone": -14400,
+  "id": 7626289,
+  "name": "ByWard Market",
+  "cod": 200
+}
