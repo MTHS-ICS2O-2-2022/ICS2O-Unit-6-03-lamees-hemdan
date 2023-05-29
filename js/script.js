@@ -12,7 +12,7 @@ const getWeather = async (URLAddress) => {
     const myJson = await response.json()
     const temperatureCelcius = Math.round(myJson.main.temp-273.15)
     const temperatureCelciusFeelsLike = Math.round(myJson.main.feels_like-273.15)
-    document.getElementById('weather').innerHTML = "The weather is" + temperatureCelcius + "°C" + " and it feels like" + temperatureCelciusFeelsLike + "°C"
+    document.getElementById('weather').innerHTML = "The weather is " + temperatureCelcius + "°C" + " and it feels like" + temperatureCelciusFeelsLike + "°C"
     const imageTage = "<img src=http://openweathermap.org/img/wn/" + myJson.weather[0].icon + "@2x.png>"
     document.getElementById('weather-icon').innerHTML = imageTage
   }catch(err) {
